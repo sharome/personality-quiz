@@ -8,6 +8,11 @@ void main() => (MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    void answerQuestion(){
+      print ('answerChosen');
+
+    }
+
     var questions = [
       'What\'s your favourite colour?',
       'What\'s your favourite animal?'
@@ -22,15 +27,15 @@ class MyApp extends StatelessWidget {
             Text('The question'),
             RaisedButton(
               child: Text('Answer 1'),
-              onPressed: null,
+              onPressed: answerQuestion,
             ),
             RaisedButton(
               child: Text('Answer 2'),
-              onPressed: null,
+              onPressed: answerQuestion,
             ),
             RaisedButton(
               child: Text('Answer 3'),
-              onPressed: null,
+              onPressed: answerQuestion,
             ),
           ],
         ),

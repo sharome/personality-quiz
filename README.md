@@ -1,4 +1,4 @@
-# flutter_course
+# Personality Quiz
 
 Wow! A new Flutter project.
 

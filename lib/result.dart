@@ -30,7 +30,7 @@ class Result extends StatelessWidget {
             style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
-          RaisedButton(
+          OutlineButton(
             child: Text('Restart Quiz!'),
             textColor: Colors.blue,
             onPressed: resetHandler,

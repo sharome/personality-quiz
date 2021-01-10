@@ -40,10 +40,10 @@ class _MyAppState extends State<MyApp> {
     {
       'questionText': 'Who\'s your favorite instructor?',
       'answers': [
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1}
+        {'text': 'Max', 'score': 3},
+        {'text': 'Zain Bayboo', 'score': 1},
+        {'text': 'Baba', 'score': 2},
+        {'text': 'Shayan', 'score': 1}
       ],
     },
   ];
@@ -52,10 +52,9 @@ class _MyAppState extends State<MyApp> {
 
   void _resetQuiz() {
     setState(() {
-   _questionIndex = 0;
-   _totalScore = 0;
+      _questionIndex = 0;
+      _totalScore = 0;
     });
-
   }
 
   void _answerQuestion(int score) {
